@@ -38,7 +38,7 @@
           .auth()
           .signInWithEmailAndPassword(email, password)
           .then(() => {
-            window.location.href = "admin.html"; // Redirect on success
+            window.location.href = "index.html"; // Redirect on success
           })
           .catch((error) => {
             alert("Error: " + error.message); // Show error
